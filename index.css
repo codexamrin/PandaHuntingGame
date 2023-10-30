@@ -18,7 +18,6 @@ body{
         background-size:cover ;
         background-attachement:fixed;
         z-index: 1;
-        touch-action:pay-y;
     }
     #countdown{
         position: absolute;
