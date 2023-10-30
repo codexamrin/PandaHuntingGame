@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-image: url(panda.jpg);
+}
+#frontPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat center/cover url(panda.jpg);
+    text-align:center;
+}
+
+h1 {
+    font-size: 36px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+#playGame,
+#Quit {
+    border: 2px solid black;
+    background-color: aqua;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+@media(max-width:768px){
+    h1{
+        font-size:60px;
+    }
+    #playGame,#Quit{
+        font-size:40px;
+    }
+}
+@media(max-width:480px){
+    h1{
+        font-size:40px;
+    }
+#playGame,#Quit{
+    font-size:30px;
+}
+}

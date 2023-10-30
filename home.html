@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="index.css">
+        <script src="panda.js"></script>
+        <title>Duckhunting Game</title>
+    </head>
+    <body class="body" >
+         <div id="gameOverModal"class="modal">
+            <div class="modal-content">
+                <h2> Game Over</h2>
+                <p>Your Score:<span id="gameOverScore">0</span></p>
+                <button id="restartGameOverButton">Restart Game</button>
+                <button id="quitButton" onclick="goBack()">Go Back</button>
+            </div>
+         </div>
+
+  <div id="timeOverModal" class="modal">
+    <div class="modal-content">
+        <h2>Time is Up</h2>
+        <p>Your Final Score:<span id="timeOverScore">0</span></p>
+        <button id="restartTimeOverButton">Restart Game</button>
+        <button id="quitTimeOverButton" onclick="goBack()">Go Back</button>
+    </div>
+  </div>
+  <div id="congratulations"class="modal">
+    <div class="modal-content"><h2>Congratulations!</h2>
+       <P>You completed the game with a score of <span id="finalScore">0</span></P>
+       <img src="Congratulation.gif" alt="Congratulatlioins Image">
+    <br><br><br><br>
+       <button id="restartCongratulationsButton">Restart Game</button>
+       <button id="quitCongratulationsButton" onclick="goBack()">Go Back</button>
+    </div>
+  </div>
+
+  <div id="countdown">Time:60</div>
+
+  <div id="scoreElement" class="score"> <span id="scoreValue">Score:0</span></div>
+ 
+
+  <audio id="sound"><source src="audio.wav"preload="auto"></audio>
+
+       <input  type="checkbox"id="panda1"data-score-increment="1">
+       <label  for="panda1"class="panda panda-animate"></label>
+       
+       <input  type="checkbox"id="panda2"data-score-increment="2">
+       <label  for="panda2"class="panda panda-animate"></label>
+
+       <input  type="checkbox"id="bomb3"data-score-increment="3">
+       <label  for="bomb3"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda4"data-score-increment="4">
+        <label  for="panda4"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda5"data-score-increment="5">
+        <label  for="panda5"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb6"data-score-increment="6">
+        <label  for="bomb6"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda7"data-score-increment="7">
+        <label  for="panda7"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda8"data-score-increment="8">
+        <label  for="panda8"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb9"data-score-increment="9">
+        <label  for="bomb9"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda10"data-score-increment="10">
+        <label  for="panda10"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda11"data-score-increment="11">
+        <label  for="panda11"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb12"data-score-increment="12">
+        <label  for="bomb12"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda13"data-score-increment="13">
+        <label  for="panda13"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda14"data-score-increment="14">
+        <label  for="panda14"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb15"data-score-increment="15">
+        <label  for="bomb15"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda16"data-score-increment="16">
+        <label  for="panda16"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda17"data-score-increment="17">
+        <label  for="panda17"class="panda panda-animate"></label>
+
+
+        <input  type="checkbox"id="bomb18"data-score-increment="18">
+        <label  for="bomb18"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda19"data-score-increment="19">
+        <label  for="panda19"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb20"data-score-increment="20">
+        <label  for="bomb20"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda21"data-score-increment="21">
+        <label  for="panda21"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda22"data-score-increment="22">
+        <label  for="panda22"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda23"data-score-increment="23">
+        <label  for="panda23"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb24"data-score-increment="24">
+        <label  for="bomb24"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda25"data-score-increment="25">
+        <label  for="panda25"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda26"data-score-increment="26">
+        <label  for="panda26"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb27"data-score-increment="27">
+        <label  for="bomb27"class="bomb-element"></label>
+
+        <input  type="checkbox"id="panda28"data-score-increment="28">
+        <label  for="panda28"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="panda29"data-score-increment="29">
+        <label  for="panda29"class="panda panda-animate"></label>
+
+        <input  type="checkbox"id="bomb30"data-score-increment="30">
+        <label  for="bomb30"class="bomb-element"></label>
+
+
+
+
+       </body>
+</html>
