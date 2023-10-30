@@ -5,6 +5,7 @@ body{
         cursor: url(gun.jpg),auto;
         width:100%;
         height:100%;
+        touch-action:none;
     }
     body:before{
        margin-bottom: 1%;
