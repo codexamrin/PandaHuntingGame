@@ -39,16 +39,6 @@ h1 {
     font-size: 90px;
     text-align: center;
 }
-@media(max-width:480px){
-    body{
-        font-size:12px;
-    }
-}
-@media(max-width:720px){
-    body{
-        font-size:14px;
-    }
-}
 .modal {
     display: none;
     position: fixed;
@@ -413,6 +403,14 @@ h1 {
         top: 100%;
     }
 }
-
+@media scree{
+        font-size:13px;
+}
+body:before{
+        justify-content:flex-start;
+        height:100px
+        width:100%;
+}
+}
 
 
