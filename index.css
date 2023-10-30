@@ -403,7 +403,7 @@ h1 {
         top: 100%;
     }
 }
-@media scree{
+@media screen and (max-width:600px){
         font-size:13px;
 }
 body:before{
