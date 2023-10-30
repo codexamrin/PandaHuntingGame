@@ -18,7 +18,6 @@ body{
         background-repeat: no-repeat ;
         background-size:cover ;
         background-attachement:fixed;
-        background-position:center center;
         z-index: 1;
     }
     #countdown{
