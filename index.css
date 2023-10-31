@@ -444,6 +444,14 @@ body:before{
     font-size:30px;
     user-select: none;
 }
+        h1 {
+    font-size: 36px;
+    color: aqua;
+    margin-bottom: 20px;
+    font-size: 90px;
+    text-align: center;
+}
+
 }
 
 
