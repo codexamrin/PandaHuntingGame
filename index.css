@@ -425,6 +425,25 @@ body:before{
     margin-top: 20px;
     
 }
+        #countdown{
+        position: absolute;
+        top: 0;
+        margin-bottom: 5%;
+        font-size: 30px;
+        height: 35px;
+        width: 20%;
+        z-index: 2;
+        user-select: none;
+    }
+        .score{
+    position: absolute;
+    top: 9%;
+    height: 35px;
+    width: 20%;
+    z-index: 2;
+    font-size:30px;
+    user-select: none;
+}
 }
 
 
