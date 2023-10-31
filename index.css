@@ -405,12 +405,13 @@ h1 {
 }
 @media screen and (max-width:600px){
         font-size:13px;
+}
 body:before{
         justify-content:flex-start;
         height:100px
         width:100%;
 }
-}
+
 
 
 
