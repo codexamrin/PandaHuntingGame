@@ -407,8 +407,11 @@ h1 {
         font-size:13px;
 }
 body:before{
-        height:30vh;
+        height:30%;
         width:50%;
+        margin:0%;
+        padding:0%;
+        text-align:center;
 }
 
 
