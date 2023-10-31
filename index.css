@@ -403,54 +403,27 @@ body:before{
         width:100%;
 }
 .modal {
-  max-width:400px
+  max-width:50px
   margin: 0 auto;
   padding: 15px 9px 17px 16px;
  
 }
- #countdown{
-      width: 95%;
-        height: 30px;
-        padding: auto;
-    }
 .modal-content {
     position: absolute;
    height:50vh;
    width:50%
 }
-
-
-.modal-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-
 .modal-content span {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 
 .modal-content button {
-    background: #3498db; 
-    color: #fff; 
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    padding: 5px 10px;
+    font-size: 10px;
     margin-top: 20px;
     
-}
-.score{
-    position: absolute;
-    top: 9%;
-    height: 35px;
-    width: 20%;
-    z-index: 2;
-    font-size:30px;
-    user-select: none;
 }
 }
 
