@@ -407,8 +407,8 @@ h1 {
         font-size:13px;
 }
 body:before{
-        height:30px;
-        width:500%;
+        height:30vh;
+        width:50%;
 }
 
 
