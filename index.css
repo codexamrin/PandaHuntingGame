@@ -407,6 +407,7 @@ h1 {
         font-size:13px;
 }
 body:before{
+        display-flex:none;
         height:30px
         width:500%;
 }
