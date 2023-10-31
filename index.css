@@ -407,10 +407,10 @@ h1 {
         font-size:13px;
 }
 body:before{
-        justify-content:flex-start;
         height:100px
         width:100%;
 }
+
 
 
 
