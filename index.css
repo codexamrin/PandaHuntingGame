@@ -32,6 +32,13 @@ body{
         z-index: 2;
         user-select: none;
     }
+h2 {
+    font-size: 36px;
+    color: aqua;
+    margin-bottom: 20px;
+    font-size: 90px;
+    text-align: center;
+}
 .modal {
     display: none;
     position: fixed;
