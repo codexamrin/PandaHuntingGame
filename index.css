@@ -412,13 +412,10 @@ body:before{
         width:100%;
 }
  .modal {
-   max-width:400px;
-   margin:0 auto;
-   height:10vh;
-   width:20%;
-   top:20%;
+   margin:5% auto;
+   height:60vh;
+   width:50%;
    display: none;
-    position: fixed;
     text-align:center;
 
 }
