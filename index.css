@@ -413,10 +413,13 @@ body:before{
         width:100%;
 }
  .modal {
+   max-width:400px;
+   margin:0 auto;
    height:10vh;
-   width:50%;
+   width:20%;
    margin:10px 10px 20px 20px;
-         backgronund:none;
+   top:20%;
+
 }
 .modal-content {
     height:10vh;
@@ -438,14 +441,10 @@ body:before{
 
 
 .modal-content button {
-    background: #3498db; 
-    color: #fff; 
-    border: none;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px;
+
     
 }
 
