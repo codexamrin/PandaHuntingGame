@@ -414,8 +414,7 @@ body:before{
  .modal {
    height:150vh;
    width:200%;
-  float:none;
- margin:40px auto;
+ top:50%;
 
 }
 }
