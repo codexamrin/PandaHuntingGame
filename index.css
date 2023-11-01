@@ -423,9 +423,9 @@ body:before{
     text-align: center; 
 }
 .modal-content {
+   max-width:400px;
+   margin:0 auto;
    
-    top: 100%;
-    left: 100%;
    
 }
 }
