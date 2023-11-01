@@ -51,9 +51,7 @@ h1 {
     text-align: center; 
 }
 .modal-content {
-    position: none;
-    top: 50%;
-    left: 50%;
+    position: static;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     background: #fff;
