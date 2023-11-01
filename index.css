@@ -410,6 +410,17 @@ body{
 body:before{
         height:100vh;
         width:100%;
+}.modal-content {
+    position: static;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
 }
 }
     
