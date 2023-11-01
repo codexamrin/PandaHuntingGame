@@ -413,13 +413,14 @@ body:before{
         width:100%;
 }
  .modal {
-   justify-content:flex-start;
    height:50vh;
    width:50%;
+   margin:10px 10px 20px 20px;
 }
 .modal-content {
     height:50vh;
     width:50%;
+   margin:10px 10px 20px 20px;
 }
 
 
