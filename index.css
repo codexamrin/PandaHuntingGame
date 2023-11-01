@@ -54,6 +54,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -410,7 +411,7 @@ body:before{
         width:100%;
 }
  .modal {
-   height:50vh;
+   height:150vh;
    width:200%;
 }
 }
