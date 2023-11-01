@@ -425,7 +425,7 @@ body:before{
 .modal-content {
    max-width:400px;
    margin:0 auto;
-  overflow:hidden;
+ padding: 15px 9px 17px 16px;
    
 }
 }
