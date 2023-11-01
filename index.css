@@ -413,12 +413,13 @@ body:before{
         width:100%;
 }
  .modal {
-   height:50vh;
+   height:10vh;
    width:50%;
    margin:10px 10px 20px 20px;
+         backgronund:none;
 }
 .modal-content {
-    height:50vh;
+    height:10vh;
     width:50%;
    margin:10px 10px 20px 20px;
 }
