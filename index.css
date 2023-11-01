@@ -412,10 +412,9 @@ body:before{
         width:100%;
 }
  .modal {
-   height:60vh;
-   width:50%;
-   display: none;
-    text-align:center;
+   height:150vh;
+   width:150%;
+  
 
 }
 }
