@@ -412,7 +412,6 @@ body:before{
         width:100%;
 }
  .modal {
-   margin:5% auto;
    height:60vh;
    width:50%;
    display: none;
