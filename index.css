@@ -412,6 +412,15 @@ body:before{
         width:100%;
 }.modal-content {
     position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
 }
 }
     
