@@ -414,6 +414,9 @@ h1 {
     .modal-content {
         width: 80%; 
     }
+            .panda,.bomb-element{
+            animation:none;
+            }
 }
 
 
