@@ -32,7 +32,7 @@ body{
         z-index: 2;
         user-select: none;
     }
-h2 {
+h1 {
     font-size: 36px;
     color: aqua;
     margin-bottom: 20px;
