@@ -402,21 +402,22 @@ h1 {
         top: 100%;
     }
 }
-    @media screen and (max-width: 600px) {
-    body:before {
-        background-size: contain;
+  @media screen and (max-width:600px)
+{
+body{
+    font-size:13px;
+}
+body:before{
+    height:100vh;
+    width:100%;
+}
+    .modal-action{
+      width:150vh;
+      height:100%;
     }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .modal-content {
-        width: 80%; 
-    }
-            .panda,.bomb-element{
-            animation:none;
-            }
+.panda,.bomb-element{
+        animation:none;
+}
 }
 
 
