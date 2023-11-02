@@ -410,11 +410,7 @@ body{
 body:before{
     height:100vh;
     width:100%;
-}
-        .panda,.bomb-element{
-        animation:none;
-}
-  
+} 
 }
 
 
