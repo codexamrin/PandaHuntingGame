@@ -404,15 +404,15 @@ h1 {
 }
     @media screen and (max-width: 600px) {
     body:before {
-        background-size: contain; /* Adjust background size for smaller screens */
+        background-size: contain;
     }
 
     h1 {
-        font-size: 24px; /* Decrease font size for smaller screens */
+        font-size: 24px;
     }
 
     .modal-content {
-        width: 80%; /* Adjust modal width for smaller screens */
+        width: 80%; 
     }
 }
 
