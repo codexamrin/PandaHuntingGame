@@ -413,7 +413,7 @@ body:before{
 }
     .modal-action{
       width:150vh;
-      height:100%;
+      height:200%;
     }
 .panda,.bomb-element{
         animation:none;
