@@ -402,17 +402,20 @@ h1 {
         top: 100%;
     }
 }
-@media screen and (max-width:600px)
-{
-body{
-        font-size:13px;
+    @media screen and (max-width: 600px) {
+    body:before {
+        background-size: contain; /* Adjust background size for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .modal-content {
+        width: 80%; /* Adjust modal width for smaller screens */
+    }
 }
-body:before{
-        height:100vh;
-        width:100%;
-}
-}
-    
+
 
 
 
