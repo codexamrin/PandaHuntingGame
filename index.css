@@ -411,9 +411,14 @@ body:before{
     width:100%;
 } 
 .modal-content{
- animation:none;
 top:50%;
-left:50px;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.congratulations{
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 }
 }
 
