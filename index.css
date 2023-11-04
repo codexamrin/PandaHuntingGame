@@ -410,7 +410,7 @@ h1 {
                 font-size:120px;
         }
 }
-@media screen and(max-width:767px){
+@media screen and(max-width:600px){
         body:before{
                 background-size:contain;
         }
