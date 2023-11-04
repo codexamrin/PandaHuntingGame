@@ -397,6 +397,7 @@ h1 {
                 background-size:cover;
         }
         .panda,.bomb-element{
+                animation-play-state: paused;
                 width:64px;
                 height:64px;
         }
@@ -415,6 +416,7 @@ h1 {
                 background-size:contain;
         }
         .panda,.bomb-element{
+                animation-play-state: paused;
                 width:32px;
                 height:32px;
         }
