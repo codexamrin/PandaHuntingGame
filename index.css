@@ -299,6 +299,7 @@ h1 {
 .bomb-element:nth-of-type(30){
     animation: bombflay 11s linear 8s infinite;
 }
+
 @keyframes pandaflay{
     0% {
         left: 150%;
