@@ -393,7 +393,6 @@ h1 {
 @media screen and (min-width:468px){
         body{
                 font-size:13px;
-                 overflow:hidden;
         }
         body:before{
                 background-size:cover;
@@ -408,6 +407,8 @@ h1 {
         }
         .modal-content{
                 width:50%;
+                margin-bottom: 1%;
+                padding-bottom: 1%;
         }
         h1{
                 font-size:120px;
@@ -416,7 +417,6 @@ h1 {
 @media screen and (max-width:600px){
          body{
                 font-size:13px;
-                 overflow:hidden;
         }
         body:before{
                 background-size:contain;
@@ -431,6 +431,8 @@ h1 {
         }
         .modal-content{
                 width:80%;
+                margin-bottom: 1%;
+                padding-bottom: 1%;
         }
         h1{
                 font-size:36px;
