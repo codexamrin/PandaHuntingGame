@@ -398,48 +398,6 @@ animation: bombflay 11s linear 8s infinite;
     top: 100%;
 }
 }
-@media screen and (min-width:468px){
-        body:before{
-                background-size:cover;
-        }
-        .panda,.bomb-element{
-                animation-play-state: paused;
-                width:64px;
-                height:64px;
-        }
-        #countdown,.score{
-                font-size:40px;
-        }
-        .modal-content{
-                width:50%;
-                margin-bottom: 1%;
-                padding-bottom: 1%;
-        }
-        h1{
-                font-size:120px;
-        }
-}
-@media screen and (max-width:600px){
-        body:before{
-                background-size:contain;
-        }
-        .panda,.bomb-element{
-                animation-play-state: paused;
-                width:32px;
-                height:32px;
-        }
-        #countdown,.score{
-                font-size:20px;
-        }
-        .modal-content{
-                width:80%;
-                margin-bottom: 1%;
-                padding-bottom: 1%;
-        }
-        h1{
-                font-size:36px;
-        }
-}
 
 
 
