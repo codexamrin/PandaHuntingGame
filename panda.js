@@ -13,7 +13,7 @@
          clearInterval(counterHandler);
           counter = 60;  
           counterHandler = setInterval(changeCounter, 1000);  
-        gameActive(true);
+        gameActive=true;
          
           panda.forEach(function(panda,index){
             panda.style.left='-50px';
