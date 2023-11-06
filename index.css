@@ -13,6 +13,7 @@ body:before{
     height: 100%;
     background-image: url(background2.jpg);
     background-repeat: no-repeat ;
+    background-attachment:fixed;
     z-index: 1;
    
 }
