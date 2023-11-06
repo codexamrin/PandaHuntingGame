@@ -52,7 +52,8 @@ left: 50%;
 transform: translate(-50%, -50%);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 background: #fff;
-border-radius: 10px;
+border-radius: 10px
+padding: 20px;
 text-align: center;
 user-select: none;
 }
