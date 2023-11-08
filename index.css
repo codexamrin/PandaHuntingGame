@@ -149,10 +149,10 @@ user-select: none;
   }
   body:before {
     height: 100vh;
-    width: 130%;
+    width: 200%;
     background-size: cover; 
-      padding:0;
-      margin:0;
+      padding-left:0;
+      margin-left:0;
   }
    .modal-content  {
         max-width: 400px;
