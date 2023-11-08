@@ -143,20 +143,17 @@ font-size:30px;
 user-select: none;
 }
 d
-@media screen and (max-width: 600px)and (max-width: 1024px) {
-  body {
-    font-size: 13px;
-  }
-  body:before {
-    height: 200%;
-    width: 100%;
-    background-size: cover; 
-    user-select:none;
-  }
-   .modal-content  {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 20px 9px 17px 16px;
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    body:before {
+        height: 100%;
+    }
+
+    .modal-content {
+        max-width: 90%; 
     }
 }
 .panda{
