@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="index.css">
         <script src="panda.js"></script>
-        <title>Duckhunting Game</title>
+        <title>PandaHunting Game</title>
     </head>
     <body class="body" >
          <div id="gameOverModal"class="modal">
@@ -42,6 +42,7 @@
 
   <audio id="sound"><source src="audio.wav"preload="auto"></audio>
 
+    <div class="game-container">
        <input  type="checkbox"id="panda1"data-score-increment="1">
        <label  for="panda1"class="panda panda-animate"></label>
        
@@ -132,9 +133,6 @@
 
         <input  type="checkbox"id="bomb30"data-score-increment="30">
         <label  for="bomb30"class="bomb-element"></label>
-
-
-
-
+    </div>
        </body>
 </html>
