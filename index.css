@@ -144,20 +144,24 @@ user-select: none;
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    font-size: 13px;
-    overflow: hidden;
-    background-attachment: fixed;
-  }
-  body:before {
-    height: 100%;
-    width: 150%;
-    background-size: cover; 
-  }
-   .modal-content  {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 20px 9px 17px 16px;
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #countdown {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .modal-content {
+        width: 80%;
     }
 }
 .panda{
