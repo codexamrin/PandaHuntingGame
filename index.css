@@ -360,8 +360,6 @@ animation: bombflay 11s linear 8s infinite;
   body{ 
       font-size:13px;
       overflow:hidden;
-      margin: 0;
-      padding: 0;  
 }
 body:before{
     height:100vh;
