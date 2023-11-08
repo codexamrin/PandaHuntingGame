@@ -146,10 +146,11 @@ user-select: none;
 @media screen and (max-width: 600px) {
   body {
     font-size: 13px;
+       background-size: cover;
   }
   body:before {
     height: 100vh;
-    width: 150%;
+    width: 100%;
     background-size: cover; 
   }
    .modal-content  {
