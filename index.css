@@ -149,7 +149,7 @@ user-select: none;
   }
   body:before {
     height: 100vh;
-    width: 100%;
+    width: 200%;
     background-size:cover;
   }
 }
