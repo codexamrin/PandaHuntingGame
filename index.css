@@ -151,9 +151,8 @@ user-select: none;
     background-size: cover; 
   }
   body:before {
-    height: 100vh;
+    height: 200vh;
     width: 200%;
-    background-size: cover; 
   }
    .modal-content  {
         max-width: 400px;
