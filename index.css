@@ -159,6 +159,22 @@ user-select: none;
         padding: 20px 9px 17px 16px;
     }
 }
+@media screen and (max-width: 777px) {
+  body {
+    font-size: 13px;
+  }
+  body:before {
+    justify-content:flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+  }
+   .modal-content  {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px 9px 17px 16px;
+    }
+}
 .panda{
 position: absolute;
 left:-50px;
