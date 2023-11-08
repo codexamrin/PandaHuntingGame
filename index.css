@@ -149,8 +149,8 @@ user-select: none;
   }
   body:before {
     height: 200%;
-    width: 130%;
-    background-size: cover; 
+    width: 150%;
+    background-size: content; 
   }
    .modal-content  {
         max-width: 400px;
