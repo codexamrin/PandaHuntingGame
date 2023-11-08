@@ -150,7 +150,7 @@ user-select: none;
   body:before {
     height: 200%;
     width: 150%;
-    background-size: content; 
+    background-size: auto; 
   }
    .modal-content  {
         max-width: 400px;
