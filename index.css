@@ -4,6 +4,7 @@ body{
     width:100%;
     overflow:hidden;
     height:100%;
+    background-size:cover;
 }
 body:before{
      content:'';
@@ -147,11 +148,12 @@ user-select: none;
     font-size: 13px;
     overflow: hidden;
     background-attachment: fixed;
-     background-size: cover; 
+    background-size: cover; 
   }
   body:before {
     height: 100vh;
     width: 200%;
+    background-size: cover; 
   }
    .modal-content  {
         max-width: 400px;
