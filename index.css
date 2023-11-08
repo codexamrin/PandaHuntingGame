@@ -383,6 +383,11 @@ animation: bombflay 11s linear 8s infinite;
     top: 100%;
 }
 }
+@media screen and (max-width: 600px) {
+    body:before {
+        background-size: contain;
+    }
+}
 
 
 
