@@ -278,9 +278,13 @@ animation: bombflay 11s linear 8s infinite;
         width: 32px;
         height: 32px;
         background-position: -100px 0;
-        background:cover;
+        background: cover;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
+
 
 
 
