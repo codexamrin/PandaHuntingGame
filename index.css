@@ -148,7 +148,7 @@ user-select: none;
     font-size: 13px;
   }
   body:before {
-    height: 200vh;
+    height: 100vh;
     width: 150%;
     background-size: cover; 
   }
