@@ -148,11 +148,11 @@ user-select: none;
     font-size: 13px;
     overflow: hidden;
     background-attachment: fixed;
-    background-size: cover; 
   }
   body:before {
-    height: 200%;
-    width: 200%;
+    height: 100%;
+    width: 150%;
+    background-size: cover; 
   }
    .modal-content  {
         max-width: 400px;
