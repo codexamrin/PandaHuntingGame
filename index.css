@@ -143,7 +143,7 @@ font-size:30px;
 user-select: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 777px) {
   body {
     font-size: 14px;
   }
