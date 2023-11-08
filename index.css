@@ -359,12 +359,12 @@ animation: bombflay 11s linear 8s infinite;
 @media screen and (max-width: 600px) {
   body{ 
       font-size:13px;
-     
+     background-attachment: fixed; 
 }
 body:before{
     height:100vh;
     width:100%;
-    background-attachment: fixed; 
+    
 }
 }
 
