@@ -357,15 +357,15 @@ animation: bombflay 11s linear 8s infinite;
 }
 }
 @media screen and (max-width: 600px) {
-  body{ 
-      font-size:13px;
-     background-attachment: fixed; 
-}
-body:before{
-    height:100vh;
-    width:100%;
-    background-size: cover; 
-}
+  body {
+    font-size: 13px;
+    overflow: hidden; 
+  }
+  body:before {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
 }
 
 
