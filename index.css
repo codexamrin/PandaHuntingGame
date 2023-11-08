@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     width:100%;
-    overflow:auto;
+    overflow:hidden;
     height:100%;
 }
 body:before{
@@ -115,7 +115,6 @@ border-radius: 5px;
 cursor: pointer;
 font-size: 16px;
 text-align: center;
-
 }
 #quitCongratulationsButton{
 position: absolute;
@@ -171,101 +170,77 @@ transform: rotate(120deg);
 transform-origin: 60%;
 z-index: -5;
 }
-
 .panda:nth-of-type(1){
 animation: pandaflay 5s linear 1s infinite;
 }
-
 .panda:nth-of-type(2){
 animation: pandaflay 10s linear 2s infinite;
 }
-
 .bomb-element:nth-of-type(3){
 animation: bombflay 21s linear 10s infinite;
 }
-
 .panda:nth-of-type(4){
 animation: pandaflay 15s linear 4s infinite;
 }
-
 .panda:nth-of-type(5){
 animation: pandaflay 20s linear 6s infinite;
 }
-
 .bomb-element:nth-of-type(6){
 animation: bombflay 30s linear 10s infinite;
 }
-
 .panda:nth-of-type(7){
 animation: pandaflay 30s linear 10s infinite;
 }
-
 .panda:nth-of-type(8){
 animation: pandaflay 35s linear 12s infinite;
 }
-
 .bomb-element:nth-of-type(9){
 animation: bombflay 10s linear 4s infinite;
 }
-
 .panda:nth-of-type(10){
 top: 100%;
 animation: pandaflay 45s linear 16s infinite;
 }
-
 .panda:nth-of-type(11){
 top: 100%;
 animation: pandaflay 45s linear 16s infinite;
 }
-
 .bomb-element:nth-of-type(12){
 animation: bombflay 14s linear 15s infinite;
 }
-
 .panda:nth-of-type(13){
 animation: pandaflay 60s linear 22s infinite;
 }
-
 .panda:nth-of-type(14){
 animation: pandaflay 65s linear 24s infinite;
 }
-
 .bomb-element:nth-of-type(15){
 animation: bombflay 70s linear 26s infinite;
 }
-
 .panda:nth-of-type(16){
 animation: pandaflay 75s linear 28s infinite;
 }
-
 .panda:nth-of-type(17){
 animation: pandaflay 32s linear 30s infinite;
 }
-
 .bomb-element:nth-of-type(18){
 animation: bombflay 28s linear 40s infinite;
 }
-
 .panda:nth-of-type(19){
 animation: pandaflay 85s linear 34s infinite;
 }
-
 .bomb-element:nth-of-type(20){
 animation: bombflay 90s linear 36s infinite;
 }
-
 .panda:nth-of-type(21){
 animation: pandaflay 95s linear 38s infinite;
 }
-
 .panda:nth-of-type(22){
 animation: pandaflay 100s linear 40s infinite;
 }
-
 .panda:nth-of-type(23){
 animation: pandaflay 105s linear 42s infinite;
 }
-
 .bomb-element:nth-of-type(24){
 animation: bombflay 6s linear 7s infinite;
 }
@@ -275,11 +250,9 @@ animation: pandaflay 105s linear 42s infinite;
 .panda:nth-of-type(26){
 animation: pandaflay 105s linear 42s infinite;
 }
-
 .bomb-element:nth-of-type(27){
 animation: bombflay 115s linear 46s infinite;
 }
-
 .panda:nth-of-type(28){
 animation: pandaflay 120s linear 48s infinite;
 }
@@ -386,6 +359,7 @@ animation: bombflay 11s linear 8s infinite;
 @media screen and (max-width: 600px) {
   body{ 
       font-size:13px;
+      overflow:auto;
 }
 body:before{
     height:100vh;
