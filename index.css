@@ -385,11 +385,8 @@ animation: bombflay 11s linear 8s infinite;
 }
 @media screen and (max-width: 600px) {
   body{ 
-    margin: 0;
-    padding: 0;
-    width:100%;
-    overflow:hidden;
-    height:100%;
+     font-size:13px;
+}
 }
 body:before{
     height:100vh;
