@@ -149,8 +149,8 @@ user-select: none;
   }
   body:before {
     height: 200%;
-    width: 200%;
-    background-size: auto; 
+    width: 130%;
+    background-size: cover; 
   }
    .modal-content  {
         max-width: 400px;
@@ -160,7 +160,6 @@ user-select: none;
 }
 .panda{
 position: absolute;
-cursor: url('gun1.png'),auto;
 left:-50px;
 top: 10%;
 width: 48px;
