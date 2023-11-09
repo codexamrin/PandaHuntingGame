@@ -144,6 +144,26 @@ z-index: 2;
 font-size:30px;
 user-select: none;
 }
+@media only screen and (max-width:600px)
+{
+body{
+    font-size:13px;
+}
+body:before{
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    user-select:none;
+}
+   .modal-content  {
+        max-width: 100px;
+        margin: 0 auto;
+        padding: 20px 9px 17px 16px;
+    }
+    .panda,.bomb-element{
+        animation:none;
+}
+}
 .panda{
 position: absolute;
 left:-50px;
