@@ -1,22 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    width:100%;
     overflow:hidden;
+    width:100%;
     height:100%;
-    background-size:cover;
 }
 body:before{
-    margin:0;
-    padding:0;
-     content:'';
+   content:'';
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
     background-image: url(background2.jpg);
-    background-repeat: no-repeat;
-   background-size:cover; 
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-attachment:fixed;
+    z-index: 1;
+   
 }
 #countdown{
     position: absolute;
@@ -53,19 +53,25 @@ left: 50%;
 transform: translate(-50%, -50%);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 background: #fff;
-border-radius: 10px
 padding: 20px;
+border-radius: 10px;
 text-align: center;
 user-select: none;
 }
+
+
 .modal-content h2 {
 font-size: 24px;
 margin-bottom: 10px;
 }
+
+
 .modal-content span {
 font-size: 20px;
 font-weight: bold;
 }
+
+
 .modal-content button {
 background: #3498db; 
 color: #fff; 
@@ -75,7 +81,10 @@ border-radius: 5px;
 cursor: pointer;
 font-size: 16px;
 margin-top: 20px;
+
 }
+
+
 .modal-content button:hover {
 background: #2980b9; 
 }
@@ -106,6 +115,7 @@ float: right;
 position: relative;
 top: -20px;
 }
+
 #restartCongratulationsButton {
 position: absolute;
 bottom: 20px;
@@ -118,6 +128,7 @@ border-radius: 5px;
 cursor: pointer;
 font-size: 16px;
 text-align: center;
+
 }
 #quitCongratulationsButton{
 position: absolute;
@@ -131,7 +142,9 @@ border-radius: 5px;
 cursor: pointer;
 font-size: 16px;
 text-align: center;
+
 }
+
 #restartCongratulationsButton:hover {
 background: #2980b9;
 }
@@ -156,7 +169,7 @@ body:before{
     user-select:none;
 }
    .modal-content  {
-        max-width: 600px;
+        max-width: 100px;
         margin: 0 auto;
         padding: 20px 9px 17px 16px;
     }
@@ -166,6 +179,7 @@ body:before{
 }
 .panda{
 position: absolute;
+cursor: url('gun1.png'),auto;
 left:-50px;
 top: 10%;
 width: 48px;
@@ -192,77 +206,101 @@ transform: rotate(120deg);
 transform-origin: 60%;
 z-index: -5;
 }
+
 .panda:nth-of-type(1){
 animation: pandaflay 5s linear 1s infinite;
 }
+
 .panda:nth-of-type(2){
 animation: pandaflay 10s linear 2s infinite;
 }
+
 .bomb-element:nth-of-type(3){
 animation: bombflay 21s linear 10s infinite;
 }
+
 .panda:nth-of-type(4){
 animation: pandaflay 15s linear 4s infinite;
 }
+
 .panda:nth-of-type(5){
 animation: pandaflay 20s linear 6s infinite;
 }
+
 .bomb-element:nth-of-type(6){
 animation: bombflay 30s linear 10s infinite;
 }
+
 .panda:nth-of-type(7){
 animation: pandaflay 30s linear 10s infinite;
 }
+
 .panda:nth-of-type(8){
 animation: pandaflay 35s linear 12s infinite;
 }
+
 .bomb-element:nth-of-type(9){
 animation: bombflay 10s linear 4s infinite;
 }
+
 .panda:nth-of-type(10){
 top: 100%;
 animation: pandaflay 45s linear 16s infinite;
 }
+
 .panda:nth-of-type(11){
 top: 100%;
 animation: pandaflay 45s linear 16s infinite;
 }
+
 .bomb-element:nth-of-type(12){
 animation: bombflay 14s linear 15s infinite;
 }
+
 .panda:nth-of-type(13){
 animation: pandaflay 60s linear 22s infinite;
 }
+
 .panda:nth-of-type(14){
 animation: pandaflay 65s linear 24s infinite;
 }
+
 .bomb-element:nth-of-type(15){
 animation: bombflay 70s linear 26s infinite;
 }
+
 .panda:nth-of-type(16){
 animation: pandaflay 75s linear 28s infinite;
 }
+
 .panda:nth-of-type(17){
 animation: pandaflay 32s linear 30s infinite;
 }
+
 .bomb-element:nth-of-type(18){
 animation: bombflay 28s linear 40s infinite;
 }
+
 .panda:nth-of-type(19){
 animation: pandaflay 85s linear 34s infinite;
 }
+
 .bomb-element:nth-of-type(20){
 animation: bombflay 90s linear 36s infinite;
 }
+
 .panda:nth-of-type(21){
 animation: pandaflay 95s linear 38s infinite;
 }
+
 .panda:nth-of-type(22){
 animation: pandaflay 100s linear 40s infinite;
 }
+
 .panda:nth-of-type(23){
 animation: pandaflay 105s linear 42s infinite;
 }
+
 .bomb-element:nth-of-type(24){
 animation: bombflay 6s linear 7s infinite;
 }
@@ -272,9 +310,11 @@ animation: pandaflay 105s linear 42s infinite;
 .panda:nth-of-type(26){
 animation: pandaflay 105s linear 42s infinite;
 }
+
 .bomb-element:nth-of-type(27){
 animation: bombflay 115s linear 46s infinite;
 }
+
 .panda:nth-of-type(28){
 animation: pandaflay 120s linear 48s infinite;
 }
