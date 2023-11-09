@@ -148,7 +148,6 @@ user-select: none;
 {
 body{
     font-size:13px;
-    user-select:none;
 }
 body:before{
     height:100vh;
